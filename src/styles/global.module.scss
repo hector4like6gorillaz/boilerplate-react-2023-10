@@ -1,0 +1,38 @@
+@import './global.scss';
+@import './colors.scss';
+@import './wordArt.scss';
+
+/*
+
+@mixin body {
+  color: $primary_400;
+  padding: 24px;
+  background-color: $primary_25;
+  flex-direction: column;
+  gap: 34px;
+}
+
+.confirmModal {
+  .confirmModalFooter {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+  }
+  .confirmModalBody {
+    height: 256px;
+    @include center();
+    @include body();
+  }
+
+  .blueModalBody {
+    min-height: 256px;
+    @include body();
+  }
+}
+
+.customSearch {
+  * {
+    border-radius: 2px !important;
+  }
+}
+*/

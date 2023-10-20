@@ -1,0 +1,104 @@
+@import './colors.scss';
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box !important; 
+}
+
+@font-face {
+  font-family: 'MuseoSansBold';
+  src: local('MuseoSansBold'),
+    url('../assets/fonts/MuseoSans-700.ttf') format('TrueType');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'MuseoSansRegular';
+  src: local('MuseoSansRegular'),
+    url('../assets/fonts/MuseoSans_500.otf') format('OpenType');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'MuseoSansLight';
+  src: local('MuseoSansLight'),
+    url('../assets/fonts/Museo-300.otf') format('OpenType');
+  font-weight: 300;
+}
+
+
+
+* {
+  font-family: 'MuseoSansRegular';
+}
+
+$navbar_height: 56px;
+$sidebar_width: 285px;
+
+button {
+  cursor: pointer;
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@mixin center() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $terciary_600;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $terciary_500;
+}
+th,
+td {
+  font-weight: 400 !important;
+  font-size: 16px !important;
+  line-height: 18px !important;
+}
+th {
+  color: $primary_200 !important;
+}
+td {
+  color: $primary_600 !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  background-color: $primary_25;
+  color: $primary_400;
+  border-radius: 0 !important;
+  border-bottom: 1px solid $primary_300;
+}
+.ant-collapse-header-text {
+  margin-top: 5px;
+}
+
+.ant-list {
+  border-top: 1px solid $neutral_25;
+}
+
+.ListTitles {
+  color: $primary_200;
+}
