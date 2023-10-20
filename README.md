@@ -1,5 +1,9 @@
 # React + TypeScript + Vite + Axios + Redux + HeroIcons + LocalForage + Sass + React-Router-Dom + Cypress
 
+# version de node requerida para el proyecto
+
+# v18.13.0
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
