@@ -2,7 +2,7 @@
 
 # version de node requerida para el proyecto
 
-# v18.13.0
+# v22.11.0
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -32,17 +32,17 @@ previo a levantar el servidor es importante crear un archivo llamado
 
 en la raiz de la carpeta a la altura de vite.config.ts el cual debe contener por el momento a modo de ejemplo:
 
-# VITE_APP_API=https://pokeapi.co/api/v2/
+```VITE_APP_API=https://pokeapi.co/api/v2/````
 
 # ---------------------------------------->
 
 Para levantar el servidor (esta configurado en el puerto 3000 importante dejarlo fijo para cypress):
 
-# npm run dev
+``` npm run dev ```
 
 Para correr cypress basta con ejecutar:
 
-# npm run cy
+``` npm run cy ```
 
 Este boiler plate contiene ejemplos de como utilizar en su mayoria las librerias ya instaladas en el pequeño ejemplo que prepare, considero borrar hasta el final los ejemplos en caso de que los necesiten.
 

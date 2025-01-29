@@ -1,4 +1,4 @@
-@import './colors.scss';
+@use 'colors.scss';
 html,
 body {
   margin: 0;
@@ -64,13 +64,13 @@ button {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: $terciary_600;
+  background: colors.$terciary_600;
   border-radius: 20px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: $terciary_500;
+  background: colors.$terciary_500;
 }
 th,
 td {
@@ -79,26 +79,26 @@ td {
   line-height: 18px !important;
 }
 th {
-  color: $primary_200 !important;
+  color: colors.$primary_200 !important;
 }
 td {
-  color: $primary_600 !important;
+  color: colors.$primary_600 !important;
 }
 
 .ant-collapse > .ant-collapse-item > .ant-collapse-header {
-  background-color: $primary_25;
-  color: $primary_400;
+  background-color: colors.$primary_25;
+  color: colors.$primary_400;
   border-radius: 0 !important;
-  border-bottom: 1px solid $primary_300;
+  border-bottom: 1px solid colors.$primary_300;
 }
 .ant-collapse-header-text {
   margin-top: 5px;
 }
 
 .ant-list {
-  border-top: 1px solid $neutral_25;
+  border-top: 1px solid colors.$neutral_25;
 }
 
 .ListTitles {
-  color: $primary_200;
+  color: colors.$primary_200;
 }
