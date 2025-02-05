@@ -25,6 +25,7 @@
     "sass": "^1.83.4"
   },
   "devDependencies": {
+    "@cypress/react18": "^2.0.1",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
     "@typescript-eslint/eslint-plugin": "^8.22.0",
